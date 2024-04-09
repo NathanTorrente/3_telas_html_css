@@ -9,6 +9,13 @@
     height: 100px;
     
  }
+ .butaozin{
+    display: flex;
+   
+    
+    color: aliceblue;
+    justify-content: right; 
+ }
  .barraup{
     background-color: rgb(0, 19, 146);
     width:  100%;
@@ -32,7 +39,7 @@
  }
  .imagem2{
     width: 300px;
-    height: 300px;
+    height: 340px;
     margin-top: 40px;
     border-radius: 20px;
     margin-left: 100px;
@@ -69,6 +76,11 @@
     opacity: 60%;
     margin-bottom: 60px;
 }
+h3{
+    color:black;
+}
+    
+
 .imagem1{
     width: 50px;
     height: 50px;
@@ -102,9 +114,36 @@ h3{
 }
 .textoCont{
      
-     color:rgb(107, 106, 103)
+     color:rgb(107, 106, 103);
+   
 }
-button{
+input[type=submit]{
     background-color: rgb(32, 28, 28);
     color:aliceblue;
+    border-radius:4px;
+    border: none;
+    margin-left:55%;
+    padding-left:7px;
+    margin-top:18px;
+    font-size: 12px;
+    width: 55px;
+    height: 35px;
+
+}
+.imagem4{
+    width: 180px;
+    height: 180px;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+hr{
+    margin-top: 50px;
+}
+h1{
+    padding-bottom: 20px;
+}
+.cinza{
+    color: rgb(119, 125, 131);
+    opacity: 60%;
+    padding-bottom: 20px;
 }
